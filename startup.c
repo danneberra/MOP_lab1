@@ -115,7 +115,6 @@ int main(void)
 {
 	appInit_alt();
 	
-	*((unsigned char*) 0x40021014) = 0x6D;
 	while(1)
 	{
 		out7seg(keyb());
